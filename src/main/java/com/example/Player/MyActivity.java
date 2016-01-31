@@ -14,7 +14,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.player);
         Button button = (Button) findViewById(R.id.button);
 //        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.song);
-//        mediaPlayer.start(); Some sort of things
+//        mediaPlayer.start(); Some sort of things like a more than boss
 //        currentPosition = (TextView) findViewById(R.id.textView);
 //        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.string);
     }
