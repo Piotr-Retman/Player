@@ -3,9 +3,7 @@ package com.example.Player;
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-
 public class MyActivity extends Activity {
     /**
      * Called when the activity is first created.
@@ -16,7 +14,7 @@ public class MyActivity extends Activity {
         setContentView(R.layout.player);
         Button button = (Button) findViewById(R.id.button);
 //        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.song);
-//        mediaPlayer.start();
+//        mediaPlayer.start(); Some sort of things
 //        currentPosition = (TextView) findViewById(R.id.textView);
 //        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.string);
     }
